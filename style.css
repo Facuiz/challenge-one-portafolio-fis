@@ -9,6 +9,7 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+
 }
 
 body {
@@ -42,18 +43,71 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    align-items: center;
+    background: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
+}
+.menu__header{
+display:block;
+
+
+}
+.menu__list{
+    display: flex;
+    
+}
+.menu__list__item{
+    list-style: none;
+    margin-right: 1.25rem;
+    text-decoration: none;
 }
 
 /*Sección Title*/
 
-section.title{
+.menu__title{
+    position: relative;    
+    left: 15%;
+    margin-top: -15%;
+   
+
+}
+.title__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;      
+    
+}
+.title__profile{
+    display: flex;
+    position: relative;
+    left: 980px;
+    width: 268px;
+    height: 268px;
+
+}
+.title__container{  
+    
+    /*position: relative;
+    right: 450px;*/
+}
+.title__network{
+display: flex;
+justify-content: space-between;
 
 }
 
 /*Sección About*/
 
-section.about{
+.about{
+    background-image: linear-gradient(to right top, #8ad8f2, #9bd4fc, #b3cfff, #cdcafc, #e5c4f2);
+}
+.about__container{
+   
+   
 
 }
 
