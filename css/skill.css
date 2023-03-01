@@ -1,4 +1,4 @@
-/* SECCION S K I L L S */
+/* SECCION S K I L L S 
 .skills{
     background-color: #252A2E;
     color: #fff;
@@ -58,7 +58,7 @@
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
+/* Estas clases se agregaran dinamicamente mediante javascript 
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -147,4 +147,4 @@
 @keyframes autodidacta {
     0%{width: 0%;}
     100%{width: 85%;}
-}
+}*/
