@@ -375,17 +375,17 @@
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
+                <form class="col" action="https://formsubmit.co/facundoivansegovia@gmail.com" method="POST">
+                    <input type="text" name="nombre" required="" pattern="[a-zA-Z]+" placeholder="Tú nombre">
+                    <input type="text" name="telefono" minlength="9" maxlength="16" required="" pattern="[0-9]+" placeholder="Número telefónico">
+                    <input type="text" name="correo" required="" placeholder="Dirección de correo">
+                    <input type="text" name="asunto" required="" placeholder="Asunto">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
-                </div>
+                </form>
                 <!-- Mapa -->
                 <div class="col">
                     <img src="img/contact_bg.PNG" alt="">
@@ -397,7 +397,7 @@
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
                                Tel:
-							   3777-777777
+							   1234-56789
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i><p>facundoivansegovia@gmail.com<p>
